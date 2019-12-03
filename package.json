@@ -1,0 +1,24 @@
+{
+  "name": "sass-compile-example",
+  "version": "0.0.1",
+  "description": "sass compile example",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --output-style nested scss --output css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9min/sass-compile-example.git"
+  },
+  "author": "9min",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/9min/sass-compile-example/issues"
+  },
+  "homepage": "https://github.com/9min/sass-compile-example#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "nodemon": "^2.0.1"
+  }
+}
